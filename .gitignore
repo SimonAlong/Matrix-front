@@ -76,6 +76,6 @@ node_modules
 *.idea
 *.iml
 
-*.idea/Matrix-front.iml
+*.idea/*
 
 !.gitignore
