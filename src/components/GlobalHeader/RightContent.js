@@ -90,7 +90,7 @@ export default class GlobalHeaderRight extends PureComponent {
     //             size="small"
     //             className={styles.avatar}
     //             /* eslint-disable-next-line global-require */
-    //             src={require('../../assets/isyscore.png')}
+    //             src={require('../../assets/matrix.png')}
     //             alt="avatar"
     //           />
     //           {currentUser.displayName ? (<span>{currentUser.displayName}</span>):(<span />)}

@@ -132,7 +132,7 @@ class BasicLayout extends React.PureComponent {
       id: currRouterData.locale || currRouterData.name,
       defaultMessage: currRouterData.name,
     });
-    return `${pageName} - ISyscore`;
+    return `${pageName} - matrix`;
   };
 
   getLayoutStyle = () => {

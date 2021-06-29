@@ -105,8 +105,8 @@ export default function request(url, option) {
     credentials: 'include',
     "headers": {
       // todo 这里待到测试环境时候放开
-      // "X-Isyscore-Permission-Sid": getCookie("_ga")
-      // "X-Isyscore-Permission-Sid": "1f2cd53f-a59b-4ab6-96e4-fac48b5d025c"
+      // "X-matrix-Permission-Sid": getCookie("_ga")
+      // "X-matrix-Permission-Sid": "1f2cd53f-a59b-4ab6-96e4-fac48b5d025c"
       "isc-iop-token": localStorage.getItem("isc-token")
     }
   };

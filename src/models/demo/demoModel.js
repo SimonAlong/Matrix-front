@@ -19,7 +19,7 @@ export default {
         const index = (currentPage-1) * pageSize + i;
         temp.push({
           key: index,
-          name: `isyscore-${index}`,
+          name: `matrix-${index}`,
           age: 20+Math.round(Math.random()*30),
           address: loca[Math.round(Math.random()*2.5)],
           description: `My name is John Brown, I am ${index}2 years old, living in New York No. ${index} Lake Park.`,

@@ -57,7 +57,7 @@ export default {
   // add for transfer to umi
   plugins,
   // 这里设置自己的admin项目路径，执行npm run build就会打包到自己项目里面
-  // outputPath: '/Users/zhouzhenyong/file/isyscore/front_html/config-center/',
+  // outputPath: '/Users/zhouzhenyong/file/matrix/front_html/config-center/',
 
   base: '/pivot/config/',
   publicPath: '/pivot/config/',
