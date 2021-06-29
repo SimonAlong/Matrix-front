@@ -51,8 +51,11 @@ cmake-build-*/
 # IntelliJ
 out/
 
+**.umi/
 # mpeltonen/sbt-idea plugin
 .idea_modules/
+dist
+*.temp/*
 
 # JIRA plugin
 atlassian-ide-plugin.xml
@@ -79,3 +82,4 @@ node_modules
 *.idea/*
 
 !.gitignore
+!/.temp/

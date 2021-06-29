@@ -1096,7 +1096,7 @@ class AppManagerList extends PureComponent {
     );
 
     let profileSelect=[];
-    if(profileList !== undefined) {
+    if(profileList !== undefined && profileList !== '') {
       profileSelect = profileList.map(profile =>(
         <Radio.Button style={{marginTop: "10px", marginLeft: "5px"}} key={profile} value={profile}>{profile}</Radio.Button>
       ));
